@@ -2,12 +2,19 @@
 
 namespace app\controllers;
 
-class Main
+
+class Main extends App
 {
 
     public function indexAction()
     {
-        echo 'Main index';
+        $name = 'Вадим';
+        $title = 'Page title';
+        $colors = [
+            'white' => 'белый',
+            'black' => 'черный'
+        ];
+        $this->set(compact('name', 'colors', 'title'));
     }
 
 }

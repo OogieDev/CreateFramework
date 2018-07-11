@@ -10,6 +10,7 @@ define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/core');
 define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
+define('LAYOUT', 'default');
 
 
 require '../vendor/libs/functions.php';
@@ -20,7 +21,6 @@ require '../vendor/libs/functions.php';
 spl_autoload_register(function ($class)
 {
     $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
-    debug($file);
     if(is_file($file)){
         require_once($file);
     }
