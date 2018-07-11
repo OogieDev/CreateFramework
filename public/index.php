@@ -12,11 +12,7 @@ define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
 
 
-//require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
-//require '../app/controllers/Main.php';
-//require '../app/controllers/Posts.php';
-//require '../app/controllers/PostsNew.php';
 
 /**
  * функция автозагрузки
@@ -31,7 +27,8 @@ spl_autoload_register(function ($class)
 });
 
 //пример вызова контроллера не смотря на адрес
-Router::add('^pages/?(?P<action>[a-z-]+)?$', ['controller' => 'Posts']);
+Router::add('^pages/?(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);
+Router::add('^pages/(?P<alias>[a-z-]+)$', ['controller' => 'Page', 'action' => 'view']);
 
 //default routes
 Router::add('^$', ['controller' => 'Main', 'action' => 'index']);
