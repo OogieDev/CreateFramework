@@ -1,5 +1,9 @@
 <?php
 
+error_reporting(-1);
+
+use vendor\core\Router;
+
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
 define('WWW', __DIR__);
@@ -8,7 +12,7 @@ define('ROOT', dirname(__DIR__));
 define('APP', dirname(__DIR__) . '/app');
 
 
-require '../vendor/core/Router.php';
+//require '../vendor/core/Router.php';
 require '../vendor/libs/functions.php';
 //require '../app/controllers/Main.php';
 //require '../app/controllers/Posts.php';
@@ -19,7 +23,8 @@ require '../vendor/libs/functions.php';
  */
 spl_autoload_register(function ($class)
 {
-    $file = APP . "/controllers/$class.php";
+    $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
+    debug($file);
     if(is_file($file)){
         require_once($file);
     }
