@@ -5,6 +5,7 @@ namespace app\controllers;
 
 use app\models\Main;
 use vendor\core\App;
+use vendor\core\base\View;
 
 class MainController extends AppController
 {
@@ -30,15 +31,20 @@ class MainController extends AppController
         $this->setMeta('Главная страница', 'Описание главной страницы', 'слова ключевые');
         $meta = $this->meta;
         $title = 'Page title';
-        $this->set(compact('title', 'posts', 'menu', 'meta'));
+//        $this->set(compact('title', 'posts', 'menu', 'meta'));
+        View::setMeta('Заголовок страницы', 'Описание страницы', 'Ключевые слова страницы');
     }
 
     public function testAction(){
         if($this->is_ajax()){
-            echo 'ajax';
+            $model = new Main();
+            $post = \R::findOne("posts", "id = {$_POST['id']}");
+            $this->loadView('s_test', compact('post'));
             die;
         }
-        echo 'main/test';
+
+        $this->layout = 'test';
+        View::setMeta('Описание главной страницы экшена тест', 'Описание', 'ключевые слова');
     }
 
 }

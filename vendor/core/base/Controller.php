@@ -30,8 +30,13 @@ class Controller
         $this->vars = $vars;
     }
 
-    function is_ajax() {
+    public function is_ajax() {
         return (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && (strtolower(getenv('HTTP_X_REQUESTED_WITH')) === 'xmlhttprequest'));
+    }
+
+    public function loadView($view, $vars = []){
+        extract($vars);
+        require APP . "/views/{$this->route['controller']}/{$view}.php";
     }
 
 

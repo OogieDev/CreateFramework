@@ -5,8 +5,10 @@ namespace vendor\core;
 
 class Registry {
 
+    use TSingleton;
+
     public static $objects = [];
-    public static $instance;
+//    public static $instance;
 
     protected function __construct(){
         require_once ROOT . '/config/config.php';
@@ -15,12 +17,12 @@ class Registry {
         }
     }
 
-    public static function instance(){
-        if(self::$instance === null){
-            self::$instance = new self;
-        }
-        return self::$instance;
-    }
+//    public static function instance(){
+//        if(self::$instance === null){
+//            self::$instance = new self;
+//        }
+//        return self::$instance;
+//    }
 
     public function __get($name){
         if(is_object(self::$objects[$name])){

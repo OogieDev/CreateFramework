@@ -22,7 +22,7 @@ interface Logger
 	 * A logger (for PDO or OCI driver) needs to implement the log method.
 	 * The log method will receive logging data. Note that the number of parameters is 0, this means
 	 * all parameters are optional and the number may vary. This way the logger can be used in a very
-	 * flexible way. Sometimes the logger is used to log a simple error message and in other
+	 * flexible way. Sometimes the logger is used to log a simple errors message and in other
 	 * situations sql and bindings are passed.
 	 * The log method should be able to accept all kinds of parameters and data by using
 	 * functions like func_num_args/func_get_args.
@@ -764,7 +764,7 @@ class RPDO implements Driver
 			//Unfortunately the code field is supposed to be int by default (php)
 			//So we need a property to convey the SQL State code.
 			$err = $e->getMessage();
-			if ( $this->loggingEnabled && $this->logger ) $this->logger->log( 'An error occurred: ' . $err );
+			if ( $this->loggingEnabled && $this->logger ) $this->logger->log( 'An errors occurred: ' . $err );
 			$exception = new SQL( $err, 0, $e );
 			$exception->setSQLState( $e->getCode() );
 			$exception->setDriverDetails( $e->errorInfo );
@@ -1461,7 +1461,7 @@ if (interface_exists('\JsonSerializable')) { interface Jsonable extends \JsonSer
 class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 {
 	/**
-	 * FUSE error modes.
+	 * FUSE errors modes.
 	 */
 	const C_ERR_IGNORE    = FALSE;
 	const C_ERR_LOG       = 1;
@@ -1581,7 +1581,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	 }
 
 	/**
-	 * Sets the error mode for FUSE.
+	 * Sets the errors mode for FUSE.
 	 * What to do if a FUSE model method does not exist?
 	 * You can set the following options:
 	 *
@@ -1603,7 +1603,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	 *
 	 * This method returns the old mode and handler as an array.
 	 *
-	 * @param integer       $mode error handling mode
+	 * @param integer       $mode errors handling mode
 	 * @param callable|NULL $func custom handler
 	 *
 	 * @return array
@@ -1617,10 +1617,10 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 			&& $mode !== self::C_ERR_EXCEPTION
 			&& $mode !== self::C_ERR_FUNC
 			&& $mode !== self::C_ERR_FATAL
-		) throw new \Exception( 'Invalid error mode selected' );
+		) throw new \Exception( 'Invalid errors mode selected' );
 
 		if ( $mode === self::C_ERR_FUNC && !is_callable( $func ) ) {
-			throw new \Exception( 'Invalid error handler' );
+			throw new \Exception( 'Invalid errors handler' );
 		}
 
 		$old = array( self::$errorHandlingFUSE, self::$errorHandler );
@@ -2471,7 +2471,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 
 	/**
 	 * Magic Getter. Gets the value for a specific property in the bean.
-	 * If the property does not exist this getter will make sure no error
+	 * If the property does not exist this getter will make sure no errors
 	 * occurs. This is because RedBean allows you to query (probe) for
 	 * properties. If the property can not be found this method will
 	 * return NULL instead.
@@ -2825,7 +2825,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	/**
 	 * Sends the call to the registered model.
 	 * This method can also be used to override bean behaviour.
-	 * In that case you don't want an error or exception to be triggered
+	 * In that case you don't want an errors or exception to be triggered
 	 * if the method does not exist in the model (because it's optional).
 	 * Unfortunately we cannot add an extra argument to __call() for this
 	 * because the signature is fixed. Another option would be to set
@@ -2833,7 +2833,7 @@ class OODBBean implements\IteratorAggregate,\ArrayAccess,\Countable,Jsonable
 	 * cause additional complexity because we have to deal with extra temporary state.
 	 * So, instead I allowed the method name to be prefixed with '@', in practice
 	 * nobody creates methods like that - however the '@' symbol in PHP is widely known
-	 * to suppress error handling, so we can reuse the semantics of this symbol.
+	 * to suppress errors handling, so we can reuse the semantics of this symbol.
 	 * If a method name gets passed starting with '@' the overrideDontFail variable
 	 * will be set to TRUE and the '@' will be stripped from the function name before
 	 * attempting to invoke the method on the model. This way, we have all the
@@ -7713,9 +7713,9 @@ class SQL extends RedException
 
 	/**
 	 * Returns the raw SQL STATE, possibly compliant with
-	 * ANSI SQL error codes - but this depends on database driver.
+	 * ANSI SQL errors codes - but this depends on database driver.
 	 *
-	 * @param string $sqlState SQL state error code
+	 * @param string $sqlState SQL state errors code
 	 *
 	 * @return void
 	 */
@@ -13512,7 +13512,7 @@ class Facade
 	}
 
 	/**
-	 * Sets the error mode for FUSE.
+	 * Sets the errors mode for FUSE.
 	 * What to do if a FUSE model method does not exist?
 	 * You can set the following options:
 	 *

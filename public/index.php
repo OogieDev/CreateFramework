@@ -1,11 +1,10 @@
 <?php
 
-error_reporting(-1);
-
 use vendor\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
+define('DEBUG', 1);
 define('WWW', __DIR__);
 define('CORE', dirname(__DIR__) . '/vendor/core');
 define('ROOT', dirname(__DIR__));

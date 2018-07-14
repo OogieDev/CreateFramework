@@ -1,0 +1,24 @@
+[2018-07-15 01:13:50] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 25
+======================================================
+[2018-07-15 01:15:49] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:18:24] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:18:56] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:20:20] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:20:51] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:21:14] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 01:23:00] Текст ошибки: Контроллер <b>app\controllers\AraavsController</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\Router.php | Строка: 104
+======================================================
+[2018-07-15 01:24:41] Текст ошибки: Контроллер <b>app\controllers\AraavsController</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\Router.php | Строка: 104
+======================================================
+[2018-07-15 01:25:40] Текст ошибки: Контроллер <b>app\controllers\AraavsController</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\Router.php | Строка: 104
+======================================================
+[2018-07-15 01:25:49] Текст ошибки: Контроллер <b>app\controllers\AraavsController</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\Router.php | Строка: 104
+======================================================
+[2018-07-15 01:26:40] Текст ошибки: Undefined variable: test | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php
+======================================================
