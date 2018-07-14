@@ -4,6 +4,7 @@ namespace app\controllers;
 
 
 use app\models\Main;
+use vendor\core\App;
 
 class MainController extends AppController
 {
@@ -11,7 +12,12 @@ class MainController extends AppController
     public function indexAction()
     {
         $model = new Main;
-        $posts = \R::findAll('posts');
+        $posts = App::$app->cache->get('posts');
+        if(!$posts){
+            echo 'Зашли в sql';
+            $posts = \R::findAll('posts');
+            App::$app->cache->set('posts', $posts, 3600 * 24);
+        }
         $menu = $this->menu;
         //        $posts = $model->findAll();
 //        $posts2 = $model->findAll();
@@ -28,9 +34,11 @@ class MainController extends AppController
     }
 
     public function testAction(){
-        $this->layout = 'test';
-        $title = 'page main testacrion';
-        $this->set(compact('title'));
+        if($this->is_ajax()){
+            echo 'ajax';
+            die;
+        }
+        echo 'main/test';
     }
 
 }

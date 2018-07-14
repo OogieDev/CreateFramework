@@ -23,6 +23,8 @@ class View {
      */
     public $layout;
 
+    public $scripts = [];
+
     public function __construct($route, $layout = '', $view = ''){
         $this->route = $route;
         if($layout === false){
@@ -47,12 +49,30 @@ class View {
         if(false !== $this->layout){
             $file_layout = APP . "/views/layouts/{$this->layout}.php";
             if(is_file($file_layout)){
+                //подключение скриптов
+                $content = $this->getScripts($content);
+                $scripts = [];
+                if(!empty($this->scripts[0])){
+                    $scripts = $this->scripts[0];
+                }
+
                 require $file_layout;
             }else{
                 echo "<p>Не найден шаблон <b>$file_layout</b></p>";
             }
         }
 
+    }
+
+    public function getScripts($content){
+        //ищет все скрипты которые мы передали во вьюху вырезает их и запихивает в переменную
+        //это все для того, чтобы мы могли подключать скрипты последовательно
+        $pattern = "#<script.*?>.*?</script>#si";
+        preg_match_all($pattern, $content,$this->scripts);
+        if(!empty($this->scripts)){
+            $content = preg_replace($pattern, '', $content);
+        }
+        return $content;
     }
 
 

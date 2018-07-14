@@ -11,6 +11,7 @@ define('CORE', dirname(__DIR__) . '/vendor/core');
 define('ROOT', dirname(__DIR__));
 define('LIBS', dirname(__DIR__) . '/vendor/libs');
 define('APP', dirname(__DIR__) . '/app');
+define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 
 
@@ -26,6 +27,8 @@ spl_autoload_register(function ($class)
         require_once($file);
     }
 });
+
+new \vendor\core\App();
 
 //пример вызова контроллера не смотря на адрес
 Router::add('^pages/?(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);

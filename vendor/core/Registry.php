@@ -10,7 +10,6 @@ class Registry {
 
     protected function __construct(){
         require_once ROOT . '/config/config.php';
-        debug($config);
         foreach ($config['components'] as $name => $objects){
             self::$objects[$name] = new $objects();
         }
