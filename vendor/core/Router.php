@@ -65,6 +65,12 @@ class Router
                 if(!isset($route['action'])){
                     $route['action'] = 'index';
                 }
+                if(!isset($route['prefix'])){
+                    $route['prefix'] = '';
+                }else{
+                    $route['prefix'] .= '\\';
+                }
+                //prefix for admin controllers
                 $route['controller'] = self::upperCamelCase($route['controller']);
                 self::$route = $route;
                 return true;
@@ -84,7 +90,7 @@ class Router
 
         if(self::matchRoute($url))
         {
-            $controller = 'app\\controllers\\' . self::$route['controller'] . 'Controller';
+            $controller = 'app\\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
             self::upperCamelCase($controller);
             if(class_exists($controller))
             {
