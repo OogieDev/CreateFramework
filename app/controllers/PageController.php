@@ -13,7 +13,6 @@ class PageController extends AppController
     {
         $model = new Main;
         $posts = \R::findAll('posts');
-        $menu = $this->menu;
         //        $posts = $model->findAll();
 //        $posts2 = $model->findAll();
 //        $post = $model->findOne('Вадим'); //первый параметр отвечает за то, по какуму значению будем искать where field = id а field не обязательный перезаписывает $this->pk модели

@@ -1,6 +1,6 @@
 <?php
 
-namespace vendor\core;
+namespace fw\core;
 
 
 class ErrorHandler {
@@ -41,7 +41,7 @@ class ErrorHandler {
             die;
         }
         if(DEBUG){
-            require  WWW .'/errors/dev.php';
+            require WWW . '/errors/dev.php';
         }else{
             require WWW . '/errors/prod.php';
         }

@@ -6,7 +6,7 @@
  * Time: 18:48
  */
 
-namespace vendor\core;
+namespace fw\core;
 
 
 trait TSingleton {

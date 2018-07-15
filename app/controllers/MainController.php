@@ -4,14 +4,19 @@ namespace app\controllers;
 
 
 use app\models\Main;
-use vendor\core\App;
-use vendor\core\base\View;
+use fw\core\App;
+use fw\core\base\View;
+use PHPMailer\PHPMailer\PHPMailer;
 
 class MainController extends AppController
 {
 
     public function indexAction()
     {
+
+        $mailer = new PHPMailer();
+        var_dump($mailer);
+
         $model = new Main;
         $posts = App::$app->cache->get('posts');
         if(!$posts){

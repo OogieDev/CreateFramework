@@ -80,3 +80,11 @@
 ======================================================
 [2018-07-15 22:39:16] Текст ошибки: Undefined variable: test | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\admin\User\index.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\views\admin\User\index.php
 ======================================================
+[2018-07-15 23:32:58] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\AppController.php | Строка: 10
+======================================================
+[2018-07-15 23:41:02] Текст ошибки: Class 'vendor\core\Db' not found | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\Model.php | Строка: 14
+======================================================
+[2018-07-15 23:41:50] Текст ошибки: Class 'vendor\widgets\menu\Menu' not found | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: 8
+======================================================
+[2018-07-15 23:42:34] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\layouts\default.php | Строка: 7
+======================================================

@@ -1,8 +1,8 @@
 <?php
 
-namespace vendor\core;
-use vendor\core\Registry;
-use vendor\core\ErrorHandler;
+namespace fw\core;
+use fw\core\Registry;
+use fw\core\ErrorHandler;
 
 class App {
     public static $app;

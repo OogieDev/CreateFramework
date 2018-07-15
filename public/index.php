@@ -1,33 +1,28 @@
 <?php
 
-use vendor\core\Router;
+use fw\core\Router;
 
 $query = rtrim($_SERVER['QUERY_STRING'], '/');
 
 define('DEBUG', 1);
 define('WWW', __DIR__);
-define('CORE', dirname(__DIR__) . '/vendor/core');
+define('CORE', dirname(__DIR__) . '/vendor/fw/core');
 define('ROOT', dirname(__DIR__));
-define('LIBS', dirname(__DIR__) . '/vendor/libs');
+define('LIBS', dirname(__DIR__) . '/vendor/fw/libs');
 define('APP', dirname(__DIR__) . '/app');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
 
 
-require '../vendor/libs/functions.php';
+require '../vendor/fw/libs/functions.php';
 
 /**
  * функция автозагрузки
- */
-spl_autoload_register(function ($class)
-{
-    $file = ROOT . '/' . str_replace('\\', '/', $class) . '.php';
-    if(is_file($file)){
-        require_once($file);
-    }
-});
+// */
 
-new \vendor\core\App();
+require __DIR__ . '/../vendor/autoload.php';
+
+new \fw\core\App();
 
 //пример вызова контроллера не смотря на адрес
 Router::add('^pages/?(?P<action>[a-z-]+)/(?P<alias>[a-z-]+)$', ['controller' => 'Page']);

@@ -5,7 +5,7 @@
     <button class="btn btn-primary" id="send">
         Send
     </button>
-    <?php new \vendor\widgets\menu\Menu([
+    <?php new \fw\widgets\menu\Menu([
             'tpl' => WWW . '/menu/select.php' ,
             'container' => 'select',
             'table' => 'categories',
@@ -13,7 +13,7 @@
             'cacheKey' => 'menu_select',
     ]); ?>
 
-    <?php new \vendor\widgets\menu\Menu([
+    <?php new \fw\widgets\menu\Menu([
         'container' => 'ul',
         'tpl' => WWW . '/menu/my_menu.php',
         'table' => 'categories',
