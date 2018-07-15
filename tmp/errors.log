@@ -22,3 +22,35 @@
 ======================================================
 [2018-07-15 01:26:40] Текст ошибки: Undefined variable: test | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php
 ======================================================
+[2018-07-15 01:57:17] Текст ошибки: E_USER_ERROR | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php
+======================================================
+[2018-07-15 03:23:47] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:25:42] Текст ошибки: oops | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\MainController.php | Строка: 16
+======================================================
+[2018-07-15 03:25:58] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:26:54] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:26:59] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:28:00] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:29:27] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:29:36] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:29:59] Текст ошибки: Call to undefined function vendor\widgets\menu\Menu() | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: 8
+======================================================
+[2018-07-15 03:31:02] Текст ошибки: 1 | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\ErrorHandler.php | Строка: 19
+======================================================
+[2018-07-15 03:31:12] Текст ошибки: Call to undefined function vendor\widgets\menu\Menu() | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: 8
+======================================================
+[2018-07-15 03:31:21] Текст ошибки: Call to undefined function vendor\widgets\menu\Menu() | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: 8
+======================================================
+[2018-07-15 18:22:56] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\core\Router.php | Строка: 108
+======================================================
+[2018-07-15 18:43:36] Текст ошибки: Missing argument 1 for vendor\widgets\menu\Menu::getOptions(), called in C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php on line 18 and defined | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php
+======================================================
+[2018-07-15 18:44:08] Текст ошибки: Missing argument 1 for vendor\widgets\menu\Menu::getOptions(), called in C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php on line 18 and defined | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\widgets\menu\Menu.php
+======================================================
