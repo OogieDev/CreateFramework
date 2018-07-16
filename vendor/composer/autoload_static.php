@@ -15,6 +15,10 @@ class ComposerStaticInitd3cb6439108542ac7f27cf6e779ba491
         array (
             'app\\' => 4,
         ),
+        'V' => 
+        array (
+            'Valitron\\' => 9,
+        ),
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
@@ -29,6 +33,10 @@ class ComposerStaticInitd3cb6439108542ac7f27cf6e779ba491
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+        ),
+        'Valitron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/valitron/src/Valitron',
         ),
         'PHPMailer\\PHPMailer\\' => 
         array (

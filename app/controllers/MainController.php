@@ -15,8 +15,6 @@ class MainController extends AppController
     {
 
         $mailer = new PHPMailer();
-        var_dump($mailer);
-
         $model = new Main;
         $posts = App::$app->cache->get('posts');
         if(!$posts){

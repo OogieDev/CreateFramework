@@ -18,7 +18,6 @@ class UserController extends AppController {
 //            'data' => $data,
 //        ]);
         $this->set(compact('test', 'data'));
-
     }
 
     public function testAction(){

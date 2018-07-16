@@ -13,11 +13,41 @@
 
 <div class="container">
 
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/admin">Admin</a></li>
-        <li><a href="/page/view">View</a></li>
+
+    <ul class="nav">
+        <li class="nav-item">
+            <a href="/" class="nav-link">Home</a></li>
+        </li>
+        <li class="nav-item">
+            <a href="/admin" class="nav-link">Admin</a>
+        </li>
+        <li class="nav-item">
+            <a href="/page/view" class="nav-link">View</a>
+        </li>
+        <li class="nav-item">
+            <a href="/user/signup" class="nav-link">signup</a>
+        </li>
+        <li class="nav-item">
+            <a href="/user/login" class="nav-link">login</a>
+        </li>
+        <li class="nav-item">
+            <a href="/user/logout" class="nav-link">logout</a>
+        </li>
     </ul>
+
+    <?php if(isset($_SESSION['error'])): ?>
+        <div class="alert alert-danger">
+            <?=$_SESSION['error']; unset($_SESSION['error']); ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if(isset($_SESSION['success'])): ?>
+        <div class="alert alert-success">
+            <?=$_SESSION['success']; unset($_SESSION['success']); ?>
+        </div>
+    <?php endif; ?>
+
+
 
     <?=$content;?>
 

@@ -88,3 +88,25 @@
 ======================================================
 [2018-07-15 23:42:34] Текст ошибки: Class 'vendor\core\base\View' not found | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\layouts\default.php | Строка: 7
 ======================================================
+[2018-07-16 17:10:23] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 48
+======================================================
+[2018-07-16 21:05:42] Текст ошибки: Missing argument 1 for fw\core\base\Model::validate(), called in C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\UserController.php on line 15 and defined | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\Model.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\Model.php
+======================================================
+[2018-07-16 21:06:19] Текст ошибки: Cannot use object of type app\models\User as array | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\vlucas\valitron\src\Valitron\Validator.php | Строка: 945
+======================================================
+[2018-07-16 21:14:25] Текст ошибки: Метод <b>app\controllers\UserController::indexAction</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 105
+======================================================
+[2018-07-16 21:28:52] Текст ошибки: Undefined variable: _SESSION | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\UserController.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\controllers\UserController.php
+======================================================
+[2018-07-16 21:50:11] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.user' doesn't exist | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\rb.php | Строка: 768
+======================================================
+[2018-07-16 21:53:36] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.user' doesn't exist | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\rb.php | Строка: 768
+======================================================
+[2018-07-16 21:56:06] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.user' doesn't exist | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\rb.php | Строка: 768
+======================================================
+[2018-07-16 22:02:25] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Admin' for key 'login' | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\rb.php | Строка: 768
+======================================================
+[2018-07-16 22:26:33] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fw.user' doesn't exist | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\rb.php | Строка: 768
+======================================================
+[2018-07-16 22:26:56] Текст ошибки: Undefined index: email  | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
+======================================================
