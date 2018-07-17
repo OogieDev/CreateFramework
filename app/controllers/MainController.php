@@ -38,7 +38,7 @@ class MainController extends AppController
 //        $data = $model->findLike('а', 'name');
 //        debug($data);
         $this->set(compact('posts', 'menu', 'pagination', 'total'));
-        View::setMeta('Заголовок страницы', 'Описание страницы', 'Ключевые слова страницы');
+        View::setMeta('Blog::Главная страница', 'Описание страницы', 'Ключевые слова страницы');
     }
 
     public function testAction(){

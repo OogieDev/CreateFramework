@@ -100,7 +100,7 @@ class View {
 
                 require $file_layout;
             }else{
-                throw new \Exception("<p>Не найден шаблон <b>$file_view</b></p>", 404);
+                throw new \Exception("<p>Не найден шаблон <b>$file_layout</b></p>", 404);
             }
         }
 
@@ -131,6 +131,15 @@ class View {
         self::$meta['title'] = $title;
         self::$meta['desc'] = $desc;
         self::$meta['$keywords'] = $keywords;
+    }
+
+    public function getPart($file){
+        $file = APP . "/views/{$file}.php";
+        if(is_file($file)){
+            require_once $file;
+        }else{
+            echo "File {$file} not found...";
+        }
     }
 
 }

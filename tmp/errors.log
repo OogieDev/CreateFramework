@@ -182,3 +182,43 @@
 ======================================================
 [2018-07-17 03:55:02] Текст ошибки: preg_match(): Delimiter must not be alphanumeric or backslash | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php
 ======================================================
+[2018-07-17 17:33:05] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 17:56:45] Текст ошибки: <p>Не найден шаблон <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/Main/index.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 103
+======================================================
+[2018-07-17 17:59:03] Текст ошибки: <p>Не найден шаблон <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/Main/index.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 103
+======================================================
+[2018-07-17 18:00:17] Текст ошибки: Undefined property: fw\core\base\View::$template | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php
+======================================================
+[2018-07-17 18:00:41] Текст ошибки: <p>Не найден шаблон <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/layouts/page.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 103
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:10] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:11] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:11] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:11] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 18:01:11] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 19:06:04] Текст ошибки: Trying to get property of non-object | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php
+======================================================
+[2018-07-17 19:07:28] Текст ошибки: Undefined index: id | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\views\Main\index.php
+======================================================
