@@ -47,14 +47,27 @@
 
 
 
+//
+//
+//$arr = ['233' => ['334', '432'], '3234' => '324'];
+//
+//foreach($arr as $elem){
+//	echo '<br>';
+//	var_dump($elem);
+//}
 
 
-$arr = ['233' => ['334', '432'], '3234' => '324'];
+    $url = $_SERVER['REQUEST_URI'];
+    $url = explode('?', $url);
+    $uri = $url[0]. '?';
+    if(isset($url[1]) && $url[1] != ''){
+        $params = explode('&', $url[1]);
+        foreach ($params as $param){
+            if(!preg_match("#page=#", $param)) $uri .= "{$param}&amp;";
+        }
 
-foreach($arr as $elem){
-	echo '<br>';
-	var_dump($elem);
-}
+    }
+echo $uri;
 
 
 

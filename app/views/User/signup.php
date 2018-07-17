@@ -2,7 +2,7 @@
     <form method="post" action="/user/signup">
         <div class="form-group">
             <label for="login">Login</label>
-            <input type="text" value="<?=isset($_SESSION['form_data']['login']) ? h($_SESSION['form_data']['login']) : ''; ?>" name="login" class="form-control" id="login" aria-describedby="emailHelp" placeholder="Enter email">
+            <input type="text" value="<?=isset($_SESSION['form_data']['login']) ? h($_SESSION['form_data']['login']) : ''; ?>" name="login" class="form-control" id="login" aria-describedby="emailHelp" placeholder="Enter login">
         </div>
         <div class="form-group">
             <label for="password">Password</label>

@@ -110,3 +110,75 @@
 ======================================================
 [2018-07-16 22:26:56] Текст ошибки: Undefined index: email  | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
 ======================================================
+[2018-07-16 23:09:41] Текст ошибки: Undefined index: pass | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
+======================================================
+[2018-07-16 23:10:07] Текст ошибки: Undefined index: sdfdsf | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
+======================================================
+[2018-07-16 23:11:36] Текст ошибки: Undefined index: Admin | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
+======================================================
+[2018-07-16 23:12:09] Текст ошибки: Undefined index: Admin | Файл: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\app\models\User.php
+======================================================
+[2018-07-16 23:16:55] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:17:50] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:19:05] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:19:10] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:41] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:42] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:42] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:42] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:42] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:20:49] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:24:31] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:24:54] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:28:08] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 52
+======================================================
+[2018-07-16 23:28:10] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 52
+======================================================
+[2018-07-16 23:35:52] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:35:53] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:35:53] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:36:05] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:38:00] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:38:01] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:38:01] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:38:01] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:38:13] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/logout.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:43:09] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:43:09] Текст ошибки: <p>Не найден вид <b>C:\LocalServer\OSPanel\domains\framework.loc/app/views/User/.php</b></p> | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: 49
+======================================================
+[2018-07-16 23:53:37] Текст ошибки: Метод <b>app\controllers\UserController::indexAction</b> не найден | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 105
+======================================================
+[2018-07-17 00:40:49] Текст ошибки: Use of undefined constant compress - assumed 'compress' | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\base\View.php
+======================================================
+[2018-07-17 02:45:17] Текст ошибки: Страница не найдена ;( | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\core\Router.php | Строка: 114
+======================================================
+[2018-07-17 03:35:45] Текст ошибки: Use of undefined constant page - assumed 'page' | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php
+======================================================
+[2018-07-17 03:42:55] Текст ошибки: preg_match(): Delimiter must not be alphanumeric or backslash | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php
+======================================================
+[2018-07-17 03:47:26] Текст ошибки: preg_match(): Delimiter must not be alphanumeric or backslash | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php
+======================================================
+[2018-07-17 03:55:02] Текст ошибки: preg_match(): Delimiter must not be alphanumeric or backslash | Файл: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php | Строка: C:\LocalServer\OSPanel\domains\framework.loc\vendor\fw\libs\Pagination.php
+======================================================

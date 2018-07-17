@@ -48,7 +48,6 @@
     <?php endif; ?>
 
 
-
     <?=$content;?>
 
 

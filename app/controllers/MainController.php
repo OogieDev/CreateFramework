@@ -6,6 +6,7 @@ namespace app\controllers;
 use app\models\Main;
 use fw\core\App;
 use fw\core\base\View;
+use fw\libs\Pagination;
 use PHPMailer\PHPMailer\PHPMailer;
 
 class MainController extends AppController
@@ -14,15 +15,20 @@ class MainController extends AppController
     public function indexAction()
     {
 
-        $mailer = new PHPMailer();
         $model = new Main;
-        $posts = App::$app->cache->get('posts');
-        if(!$posts){
-            echo 'Зашли в sql';
-            $posts = \R::findAll('posts');
-            App::$app->cache->set('posts', $posts, 3600 * 24);
-        }
+
+        $total = \R::count('posts');
+        $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
+        $perpage = 2;
+
+        $pagination = new Pagination($page, $perpage, $total);
+        $start = $pagination->getStart();
+
+        $posts = \R::findAll('posts', "LIMIT $start, $perpage")  ;
         $menu = $this->menu;
+
+
+
         //        $posts = $model->findAll();
 //        $posts2 = $model->findAll();
 //        $post = $model->findOne('Вадим'); //первый параметр отвечает за то, по какуму значению будем искать where field = id а field не обязательный перезаписывает $this->pk модели
@@ -31,10 +37,7 @@ class MainController extends AppController
 //        $data = $model->findBySql("SELECT name FROM $model->table WHERE name LIKE ?", ['%а%']); //запрос с параметром. хз что значают знаки процента
 //        $data = $model->findLike('а', 'name');
 //        debug($data);
-        $this->setMeta('Главная страница', 'Описание главной страницы', 'слова ключевые');
-        $meta = $this->meta;
-        $title = 'Page title';
-//        $this->set(compact('title', 'posts', 'menu', 'meta'));
+        $this->set(compact('posts', 'menu', 'pagination', 'total'));
         View::setMeta('Заголовок страницы', 'Описание страницы', 'Ключевые слова страницы');
     }
 
@@ -43,7 +46,7 @@ class MainController extends AppController
 
 //            $data = ['answer' => 'Ответ с сервера', 'code' => 200];
 //            echo json_encode($data);
-           $model = new Main();
+            $model = new Main();
             $post = \R::findOne("posts", "id = {$_POST['id']}");
             $this->loadView('s_test', compact('post'));
             die;
